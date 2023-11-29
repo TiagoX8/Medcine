@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.Med">
+        <!-- ... outras configurações de estilo ... -->
+        <item name="android:statusBarColor">@color/Corpadrao</item>
+    </style>
+</resources>

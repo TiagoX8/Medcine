@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623203413602",
+    "project_id": "medcine-37257",
+    "storage_bucket": "medcine-37257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623203413602:android:2c4e73308d5a076c73eb3b",
+        "android_client_info": {
+          "package_name": "com.example.med"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJGy87EqXPOJ0W9ZHYnOcgRCmcUi-k7Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

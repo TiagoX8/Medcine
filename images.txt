@@ -1,0 +1,174 @@
+
+        val imagem5 = findViewById<ImageView>(R.id.imageView7)
+        val imagem6 = findViewById<ImageView>(R.id.imageView6)
+        val imagem7 = findViewById<ImageView>(R.id.imageView14)
+        val imagem8 = findViewById<ImageView>(R.id.imageView15)
+        val imagem9 = findViewById<ImageView>(R.id.imageView16)
+        val imagem10 = findViewById<ImageView>(R.id.imageView19)
+        val imagem11 = findViewById<ImageView>(R.id.imageView8)
+        val imagem12 = findViewById<ImageView>(R.id.imageView18)
+        val imagem13 = findViewById<ImageView>(R.id.imageView21)
+        val imagem14 = findViewById<ImageView>(R.id.imageView23)
+        val imagem15 = findViewById<ImageView>(R.id.imageView24)
+        val imagem16 = findViewById<ImageView>(R.id.imageView26)
+        val imagem17 = findViewById<ImageView>(R.id.imageView27)
+        val imagem18 = findViewById<ImageView>(R.id.imageView29)
+        val imagem19 = findViewById<ImageView>(R.id.imageView30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+  
+
+
+        // Animação para imagem9
+        imagem9.alpha = 0f
+        imagem9.animate()
+            .alpha(1f)
+            .setDuration(1000)
+            .withStartAction {
+                imagem9.visibility = ImageView.VISIBLE
+            }
+            .start()
+
+        // Animação para imagem10 (inicia depois de 1 segundo)
+        imagem10.alpha = 0f
+        imagem10.postDelayed({
+            imagem10.animate()
+                .alpha(1f)
+                .setDuration(1000)
+                .withStartAction {
+                    imagem10.visibility = ImageView.VISIBLE
+                }
+                .start()
+        }, 1000)
+
+        // Animação para imagem11
+        imagem11.alpha = 0f
+        imagem11.animate()
+            .alpha(1f)
+            .setDuration(1000)
+            .withStartAction {
+                imagem11.visibility = ImageView.VISIBLE
+            }
+            .start()
+
+        // Animação para imagem12
+        imagem12.alpha = 0f
+        imagem12.animate()
+            .alpha(1f)
+            .setDuration(1000)
+            .withStartAction {
+                imagem12.visibility = ImageView.VISIBLE
+            }
+            .start()
+
+        // Animação para imagem13 (inicia depois de 1 segundo)
+        imagem13.alpha = 0f
+        imagem13.postDelayed({
+            imagem13.animate()
+                .alpha(1f)
+                .setDuration(1000)
+                .withStartAction {
+                    imagem13.visibility = ImageView.VISIBLE
+                }
+                .start()
+        }, 1000)
+
+        // Animação para imagem14
+        imagem14.alpha = 0f
+        imagem14.animate()
+            .alpha(1f)
+            .setDuration(1000)
+            .withStartAction {
+                imagem14.visibility = ImageView.VISIBLE
+            }
+            .start()
+
+        // Animação para imagem15 (inicia depois de 1 segundo)
+        imagem15.alpha = 0f
+        imagem15.postDelayed({
+            imagem15.animate()
+                .alpha(1f)
+                .setDuration(1000)
+                .withStartAction {
+                    imagem15.visibility = ImageView.VISIBLE
+                }
+                .start()
+        }, 1000)
+
+        // Animação para imagem16
+        imagem16.alpha = 0f
+        imagem16.animate()
+            .alpha(1f)
+            .setDuration(1000)
+            .withStartAction {
+                imagem16.visibility = ImageView.VISIBLE
+            }
+            .start()
+
+        // Animação para imagem17 (inicia depois de 1 segundo)
+        imagem17.alpha = 0f
+        imagem17.postDelayed({
+            imagem17.animate()
+                .alpha(1f)
+                .setDuration(1000)
+                .withStartAction {
+                    imagem17.visibility = ImageView.VISIBLE
+                }
+                .start()
+        }, 1000)
+
+        // Animação para imagem18
+        imagem18.alpha = 0f
+        imagem18.animate()
+            .alpha(1f)
+            .setDuration(1000)
+            .withStartAction {
+                imagem18.visibility = ImageView.VISIBLE
+            }
+            .start()
+
+        // Animação para imagem19 (inicia depois de 1 segundo)
+        imagem19.alpha = 0f
+        imagem19.postDelayed({
+            imagem19.animate()
+                .alpha(1f)
+                .setDuration(1000)
+                .withStartAction {
+                    imagem19.visibility = ImageView.VISIBLE
+                }
+                .start()
+        }, 1000)
